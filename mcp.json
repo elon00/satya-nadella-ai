@@ -1,0 +1,54 @@
+{
+  "name": "satya-nadella-ai-mcp",
+  "version": "1.0.0",
+  "description": "Satya Nadella AI Model Context Protocol Server for Autonomous Enterprise AI Co-Pilot Ecosystem, Hyperscale Cloud Orchestration, Azure Planetary Fabric & Institutional Productivity Protocol",
+  "tools": [
+    {
+      "name": "audit_enterprise_workflow_copilot",
+      "description": "Benchmark organizational workflow automation efficiency, multi-tenant compliance, and enterprise graph integrations",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "workflow_domain": {
+            "type": "string"
+          },
+          "tenant_security_tier": {
+            "type": "string"
+          },
+          "compliance_standard": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "workflow_domain"
+        ]
+      }
+    },
+    {
+      "name": "disburse_enterprise_copilot_grant",
+      "description": "Trigger automated micro-escrow releases for enterprise agentic solutions, sovereign cloud instances, and global productivity tooling",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
